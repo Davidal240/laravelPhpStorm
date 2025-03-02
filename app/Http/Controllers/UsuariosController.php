@@ -72,7 +72,7 @@ class UsuariosController extends Controller
         $token = $user->createToken('auth_token')->plainTextToken;
 
         // Almacenar el token en una cookie
-        return response()->json(['message' => 'Login exitoso'])
+        return redirect()->route('usuarios.index')
             ->withCookie(cookie('token', $token, 60*24, '/', null, false, true)); // 1 día
     }
 
