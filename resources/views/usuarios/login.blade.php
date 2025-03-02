@@ -8,8 +8,9 @@
 
 <body>
 
-<div class="container">
-    <h2>Iniciar Sesión</h2>
+<div class="max-w-lg mx-auto bg-white shadow-md rounded-lg p-6">
+
+    <h2 class="text-2xl font-bold mb-4 text-center">Iniciar Sesión</h2>
 
 
     <form method="POST" action="{{ route('login') }}">

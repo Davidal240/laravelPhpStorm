@@ -9,7 +9,7 @@
 <body>
 
     <div class="max-w-lg mx-auto bg-white shadow-md rounded-lg p-6">
-        <h2 class="text-2xl font-bold mb-4 text-center">Registrar nuevo Evento</h2>
+        <h2 class="text-2xl font-bold mb-4 text-center">Registrar nuevo usuario</h2>
 
         @if ($errors->any())
             <div class="bg-red-200 text-red-700 p-3 mb-4 rounded">

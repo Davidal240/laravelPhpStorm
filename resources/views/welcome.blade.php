@@ -15,6 +15,15 @@
         <a href="{{ route('peliculas.index') }}" class="inline-block bg-blue-500 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded">
             Ver Películas
         </a>
+        <a href="{{ route('usuarios.login') }}" class="inline-block bg-blue-500 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded">
+            Iniciar sesión
+        </a>
+        <a href="{{ route('usuarios.registrar') }}" class="inline-block bg-blue-500 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded">
+            Registrarse
+        </a>
+        <a href="{{ route('usuarios.index') }}" class="inline-block bg-blue-500 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded">
+            Tabla de usuarios
+        </a>
     </div>
 </div>
 </body>
