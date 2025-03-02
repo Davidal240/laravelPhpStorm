@@ -25,16 +25,16 @@
             <tr class="bg-white hover:bg-gray-100">
                 <td class="border border-gray-300 px-4 py-2">{{ $v->name }}</td>
                 <td class="border border-gray-300 px-4 py-2">{{ $v->email }}</td>
-
+                <td>
                     <!-- Botón Editar -->
-                    {{--<a href="{{ route('edit', $v->id) }}" class="bg-blue-500 text-white px-3 py-1 rounded">Editar</a>
+                    <a href="{{ route('usuarios.edit', $v->id) }}" class="bg-blue-500 text-white px-3 py-1 rounded">Editar</a>
 
                     <!-- Formulario para Eliminar -->
                     <form action="{{ route('destroy', $v->id) }}" method="POST" onsubmit="return confirm('¿Estás seguro de eliminar este vuelo?');">
                         @csrf
                         @method('DELETE')
                         <button type="submit" class="bg-red-500 text-white px-3 py-1 rounded">Eliminar</button>
-                    </form> --}}
+                    </form>
                 </td>
 
             </tr>
