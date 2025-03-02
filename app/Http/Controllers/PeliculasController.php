@@ -61,4 +61,6 @@ class PeliculasController extends Controller
             return redirect()->back()->with('error', 'No se pudo obtener el vehículo.');
         }
     }
+
+
 }
